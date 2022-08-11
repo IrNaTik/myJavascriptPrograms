@@ -1,0 +1,379 @@
+body {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5%;
+    /* It does not give font values to the childs */
+}
+
+.container {
+    width: 1110px;
+    margin: 0px auto;
+    position: relative;
+    
+    
+}
+
+.wrapper-menu {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 101;
+    margin-top: 43px;
+}
+
+.wrapper-menu.scroll-up {
+    position: absolute;
+    top: 0 px;
+    transition: top 0.5s;
+}
+
+/* .wrapper-menu.scroll-down {
+    background-color: #e4e4f1;
+    fill-opacity: 0.4;
+    transition: top 0.5s;
+} */
+
+.our-logo {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+
+.our-logo img {
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+.our-logo p{
+    display: block;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.menu {
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    justify-self: space-between;
+    margin-left: 460px;
+    display: flex;
+}
+
+.menuValues {
+    margin-right: 53px;
+    margin-top: auto;
+    padding-bottom: 2px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.menuValues:hover {
+    opacity: 0.6;
+}
+
+.menuValues.active {
+    border-bottom: 2px solid #4E4E4E;
+    
+} 
+
+
+.basket {
+    width: 15.9px;
+    height: 20px;
+    margin-left: auto;
+    margin-top: 13px;
+}
+
+.wrapper-header {
+    padding-top: 157px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.left-header {
+    position: relative;
+    width: 550px;
+    
+}
+
+.ellipse1 {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.2);
+}
+
+.left-header h1 {
+    position: absolute; 
+    margin-top: 150px;
+    margin-left: 45px;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+}
+
+.left-header span {
+    padding-left: 180px;
+}
+
+
+
+
+
+.red-rect {
+    position: absolute;
+    margin-left: 615px;
+    width: 494.38px;
+    height: 297.67px;
+}
+
+.preview-img {
+    position: absolute;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-left: 567px;
+    width: 525px;
+    height: 330px;
+} 
+
+.booking {
+    position: absolute;
+    margin-left: 93px;
+    margin-top: 310px;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 3px solid #4E4E4E;
+    border-left: 3px solid #4E4E4E;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.booking:hover {
+    background-color: rgb(233, 227, 227);
+    border-top: 3px solid #4E4E4E;
+    border-right: 3px solid #4E4E4E;
+}
+
+.last-in-header {
+    margin-top: 504px;
+    display: flex;
+}
+
+.last-in-header p{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.last-in-header p:hover {
+    background-color: rgb(169, 174, 177);
+}
+
+.catalog-btn {
+    margin-bottom: 14px;
+    margin-left: auto;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 5px;
+    /* padding-bottom: 8px; */
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 3px solid #4E4E4E;
+    border-right: 3px solid #4E4E4E;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+
+}
+
+.catalog-btn:hover {
+    background-color: rgb(233, 227, 227);
+    border-top: 3px solid #4E4E4E;
+    border-left: 3px solid #4E4E4E;
+}
+
+.catalog {
+    margin-top: 110px;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.brend {
+    margin-top: 37px;
+    display: flex;
+}
+
+.btn-side {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+
+.btns {
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+}
+
+.btn-side#btn-right {
+    margin-left: 30px;
+    /* background: url("../Images/rightArrow.png") no-repeat center; */
+}
+
+#btn-left {
+    margin-left: auto;
+    /* background: url("../Images/leftArrow.png") no-repeat center; */
+}
+
+.btn-side {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    align-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn-side:hover {
+    background-color: #a7a6a6;
+}
+
+#btn-left img {
+    margin-top: 8px;
+    margin-left: 11px;
+    
+}
+
+#btn-right img {
+    margin-top: 8px;
+    margin-left: 14px;
+    
+}
+
+.carusel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.carusel-element {
+    width: 350px;
+}
+
+.carusel-element-about {
+    background-color: #F7F7F7;
+    height: 105px;
+    
+
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.carusel-element-about p {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#adidas {
+    margin-top: 143px;
+}
+
+.rat-line {
+    margin-top: 68px;
+}
+
+.wrapper-sales {
+    background-color: #F7F7F7;
+    margin-top: 100px;
+    position: relative;
+}
+
+.rect2 {
+    position: absolute;
+    width: 540px;
+    height: 376px;
+}
+
+.sale-image {
+    position: absolute;
+    width: 566px;
+    height: 361px;
+    margin-left: 11px;
+}
+
+.sale-h2{
+    width: 373px;
+    height: 30px;
+    padding-top: 133px;
+    margin-left: 0px;
+    padding-left: 610px;
+}
+form {
+    margin-top: 70px;
+    margin-left: 610px;
+    
+}
+
+.mail {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.2);
+    cursor: pointer;
+    background: url("../Images/mail.png") no-repeat center;
+}
+
+input {
+    align-self: center;
+    width: 440px;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4E4E4E;
+    background-color: #F7F7F7;
+}
+
+
+
+
+

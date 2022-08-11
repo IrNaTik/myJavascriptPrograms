@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikhnuk site</title>
+    <link rel="stylesheet" href="{{url_for("static", filename="Styles/style.css")}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="wrapper-menu" id="wrapper-menu">
+                <div class="our-logo" id="our-logo">
+                    <img src="{{url_for("static", filename="Images/logo.png")}}" alt="Logo">
+                    <p>TO MOVE</p>
+                </div>
+                <div class="menu" id="menu">
+                    <p class="menuValues">Главная</p>
+                    <p class="menuValues active">О нас</p>
+                    <p class="menuValues">Товары</p>
+                    <p class="menuValues">Контакты</p>
+                </div>
+                <img src="{{url_for("static", filename="Images/basket.png")}}" alt="basket" class="basket">
+            </div>
+            
+            <div class="wrapper-header" id="wrapper-header">
+                <div class="left-header">
+                    <div class="ellipse1"></div>
+                    <h1>ДВИЖЕНИЕ<br><span>-ЭТО ЖИЗНЬ</span></h1>
+                    <img src="{{url_for("static", filename="Images/rect.png")}}" alt="Rectangle" class="red-rect">
+                    <img src="{{url_for("static", filename="Images/preview.png")}}" alt="Preview" class="preview-img">
+                    <a href="#" class="booking">Оформить заказ</a>
+
+                </div>
+            
+                
+                <!-- <img src="Images/rect.png" alt="Rectangle" class="red-rect">
+                <img src="Images/preview.png" alt="Preview" class="preview-img"> -->
+                
+                
+            </div>
+            <div class="last-in-header">
+                <p id="ru-btn">RU</p>
+                <p id="en-btn">EN</p>
+                <a href="#" class="catalog-btn">Перейти в каталог</a>
+            </div>
+        </div>
+        
+    </header>
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <h2>У нас в продаже</h2>
+        
+            <div class="brend">
+                <h3>Nike</h3>
+                <div class="btns">
+                    <div class="btn-side" id="btn-left">
+                        <img src="{{url_for("static", filename="Images/leftArrow.png")}}" alt="">
+                    </div>
+                    <div class="btn-side" id="btn-right">
+                        <img src="{{url_for("static", filename="Images/rightArrow.png")}}" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="carusel">
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image1.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Nike Air Force</h4>
+                        <p>$300</p>
+                    </div>
+                </div>
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image2.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Nike Air Force 2</h4>
+                        <p>$250</p>
+                    </div>
+                </div>
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image3.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Nike Air Force 3</h4>
+                        <p>$278</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brend" id="adidas">
+                <h3>Adidas</h3>
+                <div class="btns">
+                    <div class="btn-side" id="btn-left">
+                        <img src="{{url_for("static", filename="Images/leftArrow.png")}}" alt="">
+                    </div>
+                    <div class="btn-side" id="btn-right">
+                        <img src="{{url_for("static", filename="Images/rightArrow.png")}}" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="carusel">
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image4.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Adidas boots</h4>
+                        <p>$197</p>
+                    </div>
+                </div>
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image5.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Adidas boots 2</h4>
+                        <p>$432</p>
+                    </div>
+                </div>
+                <div class="carusel-element">
+                    <img src="{{url_for("static", filename="Images/image6.png")}}" alt="">
+                    <div class="carusel-element-about">
+                        <h4>Adidas boots 3</h4>
+                        <p>$330</p>
+                    </div>
+                </div>
+            </div>
+            <img src="{{url_for("static", filename="Images/Line1.png")}}" alt="line" class="rat-line">
+
+        </div>
+        
+    </section>
+    <section class="sales" id="sales">
+        <div class="container">
+            <div class="wrapper-sales">
+                <img src="{{url_for("static", filename="Images/rect.png")}}" alt="" class="rect2">
+                <img src="{{url_for("static", filename="Images/sale.png")}}" alt="" class="sale-image">
+                <h2 class="sale-h2">Информация о скидках</h2>
+                <form action="#">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <button class="mail" type="submit"></button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+    </section>
+    <footer class="footer" id="footer">
+        
+        
+    </footer>
+
+    <script src="{{url_for("static", filename="Scripts/main.js")}}"></script>
+</body>
+</html>

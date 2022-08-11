@@ -1,0 +1,15 @@
+.section {
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    border:6px solid black;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+}
